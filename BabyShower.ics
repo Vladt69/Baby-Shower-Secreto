@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Baby Shower Sorpresa
+DESCRIPTION:¡Una dulce sorpresa está en camino! Celebramos el Baby Shower de Maria Fernanda Quesada. \n\n
+[Enlace de la imagen]
+DTSTART:20231104T150000
+DTEND:20231104T180000
+LOCATION:Salon Comunal de La Aurora de Alajuelita
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT1H
+DESCRIPTION:Recordatorio del Baby Shower (1 hora antes)
+ACTION:DISPLAY
+END:VALARM
+LOCATION;LANGUAGE=en:Salon Comunal de La Aurora de Alajuelita
+GEO:9.920866751848784,-84.11571334076103
+URL:https://maps.google.com/maps?q=9.920866751848784,-84.11571334076103
+END:VEVENT
+END:VCALENDAR
